@@ -1,3 +1,4 @@
+### este es un cambio de prueba
 
 #aqui va ir el juego del ahorcado
 import random
@@ -50,7 +51,9 @@ def run():
     word = choose_word(a)
     secret_word = [i for i in word]
     #print(secret_word)
-    
+
+    print('Bienvenidos al juego del ahorcado')
+    print('La palabra a adivinar es la siguiente: \n')
     if ('á' in secret_word) or ('é' in secret_word) or ('í'in secret_word) or ('ó'in secret_word) or ('ú' in secret_word):
         print('En la palabra hay una tilde')
 
